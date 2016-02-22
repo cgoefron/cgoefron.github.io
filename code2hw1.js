@@ -73,6 +73,8 @@ function draw() {
 	ctx.arc(posX[i],posY[i],size/2,0,2*Math.PI);
 	ctx.strokeStyle = ballColor[i];
 	ctx.stroke();
+	ctx.fillStyle = ballColor[i];
+	ctx.fill();
     posX[i] += velX[i];
     posY[i] += velY[i];
 
